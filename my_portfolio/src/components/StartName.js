@@ -1,16 +1,27 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import './StartName.css';
 
 
 function StartName() {
-    const [className, setclassName] = useState('start-div');
+    const [classNameDiv, setclassNameDiv] = useState('start-div');
+    const [Timer1, setTimer1] = useState(null)
+    const [Timer2, setTimer2] = useState(null)
 
-    setTimeout(() => {
-        setclassName('start-div blackwindow')
-    }, 7000);
+    useEffect(() => {
+        setTimer1(setTimeout(() => {
+            setclassNameDiv('start-div blackwindow');
+        }, 6000));
+        setTimer2(setTimeout(() => {
+            setclassNameDiv('display_none');
+        }, 7100));
+        return () => {
+            clearTimeout(Timer1);
+            clearTimeout(Timer2);
+        }
+    }, []);
 
     return (
-        <div className={className}>
+        <div className={classNameDiv}>
             <h1 className='nameStart animation_text'>Antonin Lampin</h1>
             <h2 className='descriptionStart animation_text'>Software Engeenier</h2>
         </div >

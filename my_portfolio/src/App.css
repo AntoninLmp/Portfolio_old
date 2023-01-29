@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.bg_black {
+  background-color: black;
+}
+
+.display_none {
+  display: none;
+}
+
 body {
   margin: 0;
 }
