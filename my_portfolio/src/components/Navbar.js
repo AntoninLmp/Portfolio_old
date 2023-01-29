@@ -1,12 +1,14 @@
-import React, { useState } from 'react'
 
 function Navbar() {
     return (
         <>
             <nav className='Navbar'>
-                <div className='navbar-container'>
-                    <a href='www.google.fr'>google</a>
-                </div>
+                <ul>
+                    <li>Moi</li>
+                    <li>Mes études</li>
+                    <li>Projet</li>
+                    <li>Mon parcours pro</li>
+                </ul>
             </nav>
         </>
     )

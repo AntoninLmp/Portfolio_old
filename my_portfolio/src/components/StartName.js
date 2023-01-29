@@ -13,12 +13,12 @@ function StartName() {
         }, 6000));
         setTimer2(setTimeout(() => {
             setclassNameDiv('display_none');
-        }, 7100));
+        }, 6900));
         return () => {
             clearTimeout(Timer1);
             clearTimeout(Timer2);
         }
-    }, []);
+    }, [Timer1, Timer2]);
 
     return (
         <div className={classNameDiv}>

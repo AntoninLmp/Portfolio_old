@@ -1,13 +1,22 @@
 .App {
   text-align: center;
+
+}
+
+.c_white {
+  color: white;
 }
 
 .bg_black {
   background-color: black;
 }
 
-.display_none {
+.d_none {
   display: none;
+}
+
+.d_flex {
+  display: flex;
 }
 
 body {
