@@ -1,17 +1,19 @@
+import React from "react";
+import './index.css';
 
 function Navbar() {
     return (
         <>
             <nav className='Navbar'>
-                <ul>
+                <ul className="list_display">
                     <li>Moi</li>
-                    <li>Mes études</li>
+                    <li>Etudes</li>
                     <li>Projet</li>
-                    <li>Mon parcours pro</li>
+                    <li>Parcours professionel</li>
                 </ul>
             </nav>
         </>
     )
 }
 
-export default Navbar
+export default Navbar;
