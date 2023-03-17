@@ -24,7 +24,7 @@ function StartName() {
     return (
         <div className={classNameDiv}>
             <h1 className='nameStart animation_text'>Antonin Lampin</h1>
-            <h2 className='descriptionStart animation_text'>Software Engeenier</h2>
+            <h2 className='descriptionStart animation_text'>Software Engineer</h2>
         </div >
     );
 }
