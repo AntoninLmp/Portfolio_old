@@ -5,33 +5,42 @@ function HomePage() {
     return (
         <div className='police_raleway'>
             <section className='d_flex justify_e mb_4'>
-                <article className='bg_green border_rad'>
-                    {/* <img src='https://cdn-icons-png.flaticon.com/512/2317/2317981.png' className='img_home' alt='icon_eng' /> */}
-                    {/* <img src='https://cdn-icons-png.flaticon.com/512/1688/1688502.png' className='img_home' alt='icon_eng' /> */}
-                    <h1 className='titleHomeBlock'>Antonin Lampin</h1>
-                    <h2 className='text_secondary_2'>Etudiant en Master (Apprentissage)</h2>
-                </article>
-                <article className='bg_white border_rad'>
-                    {/* <img src='https://cdn-icons-png.flaticon.com/512/1567/1567068.png' className='img_home' alt='icon_degree' /> */}
-                    <img href='../simages/efrei.png' className='img_home' alt='icon_degree' />
-                    <h1 className='titleHomeBlock c_green'>Etudes</h1>
-                    {/* <iframe src="https://www.youtube.com/watch?v=sMIGlkY9TyE&ab_channel=Efrei" frameborder="0"> 
-                    </iframe> */}
-                    <h2 className='text_secondary'>Ecole d'ingénieur du numérique</h2>
-                </article>
+                <div className='w_30 h_100'>
+                    <article className='bg_img bg_antonin border_rad w_100 h_70'>
+                    </article>
+                    <div>
+                        <h1 className='titleHomeBlock c_green'>Antonin Lampin</h1>
+                        <h2 className='text_secondary_2'>Etudiant en Master (Apprentissage)</h2>
+                    </div>
+                </div>
+                <div className='w_30 h_100'>
+                    <article className='bg_img bg_scool border_rad w_100 h_70'></article>
+                    {/* <video loop autoPlay>
+                        <source src={require('../video/efrei.mp4')} type="video/mp4" />
+                    </video> */}
+                    <div>
+                        <h1 className='titleHomeBlock c_green'>Etudes</h1>
+                        <h2 className='text_secondary'>Ecole d'ingénieur du numérique</h2>
+                    </div>
+                </div>
             </section>
             <section className='d_flex justify_e mb_4'>
-                <article className='bg_white border_rad'>
-                    {/* <img src='https://cdn-icons-png.flaticon.com/512/3310/3310063.png' className='img_home' alt='icon_projet' /> */}
-                    {/* <img src='https://cdn-icons-png.flaticon.com/512/4844/4844346.png' className='img_home' alt='icon_projet' /> */}
-                    <h1 className='titleHomeBlock c_green'>Projet</h1>
-                    <h2 className='text_secondary'>Développement</h2>
-                </article>
-                <article className='bg_green border_rad'>
-                    {/* <img src='https://cdn-icons-png.flaticon.com/512/1264/1264748.png' className='img_home' alt='icon_way' /> */}
-                    <h1 className='titleHomeBlock'>Parcours professionel</h1>
-                    <h2 className='text_secondary_2'>Emploie effectuer</h2>
-                </article>
+                <div className='w_30 h_100'>
+                    <article className='bg_img bg_projet border_rad w_100 h_70'></article>
+                    <div>
+                        <h1 className='titleHomeBlock c_green'>Projet</h1>
+                        <h2 className='text_secondary'>Développement</h2>
+                    </div>
+                </div>
+                <div className='w_30 h_100'>
+                    <article className='bg_img bg_pro border_rad w_100 h_70'></article>
+                    <div>
+                        <h1 className='titleHomeBlock c_green'>Parcours professionel</h1>
+                        <h2 className='text_secondary_2'>Emploie effectuer</h2>
+                    </div>
+                </div>
+
+
             </section>
             <section className='mx_20 padding_1'>
                 <p id='p_homepage'>Ils m'ont fait confiance alors pourquoi pas vous : </p>
@@ -42,9 +51,7 @@ function HomePage() {
                     <img src='https://cdn.pixabay.com/photo/2021/09/22/17/17/mcdonalds-6647433_960_720.png' alt='Macdonald Logo' id='mcdonald' />
                 </div>
                 <div className='mx_20'>
-                    <a href=''>
-                        <p className='btn_voir'>Voir plus</p>
-                    </a>
+                    <p className='btn_voir'>Voir plus</p>
                 </div>
             </section>
             <section className='mx_20 padding_1 lign_green'>

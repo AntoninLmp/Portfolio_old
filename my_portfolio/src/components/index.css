@@ -41,6 +41,29 @@ font-family: 'Raleway', sans-serif; */
     background-color: rgb(212, 226, 209);
 }
 
+.bg_img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.bg_scool {
+    background-image: url("../images/efrei.png");
+}
+
+.bg_projet {
+    background-image: url("../images/code.jpg");
+}
+
+.bg_antonin {
+    background-image: url("../images/IMG-20221111-WA0073.jpg");
+}
+
+.bg_pro {
+    background-image: url("../images/openspace.jpg");
+}
+
 /* DISPLAY MODEs */
 .d_none {
     display: none;
@@ -76,6 +99,18 @@ font-family: 'Raleway', sans-serif; */
 
 .w_100 {
     width: 100%;
+}
+
+.w_30 {
+    width: 30%;
+}
+
+.h_70 {
+    height: 70%;
+}
+
+.h_100 {
+    height: 100%;
 }
 
 .mx_20 {
@@ -258,7 +293,8 @@ a {
 
 .border_rad {
     border-radius: 15px;
-    padding: 11% 2% !important;
+    padding: 11% 0 !important;
+    height: 500px;
 }
 
 .police_raleway {
