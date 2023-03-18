@@ -1,27 +1,28 @@
 import React from "react";
 import { useState } from 'react';
 import { Outlet } from "react-router-dom";
-import './MainPage.css';
+import './HomePage.css';
 import HeaderHomePage from './HeaderHomePage';
 import HomePage from './HomePage';
-import Navbar from './Navbar';
-import StartName from './StartName';
+import Navbar from '../Navbar';
+import StartName from '../StartName';
+import Footer from "../Footer";
 
 
 const MainPage = () => {
 
-    const [App, setApp] = useState('App');
+    const [Home, setHome] = useState('Home');
     const [Main, setMain] = useState('d_content');
-    // const [App, setApp] = useState('');
+    // const [Home, setHome] = useState('');
     // const [Main, setMain] = useState('d_none');
 
     // setTimeout(() => {
-    //     setApp('App');
+    //     setHome('Home');
     //     setMain('d_content')
     // }, 7100);
     return (
         <>
-            <div className={App}>
+            <div className={Home}>
                 {/* <StartName></StartName> */}
                 <div className={Main}>
                     <header className='d_flex'>
@@ -31,6 +32,7 @@ const MainPage = () => {
                     <main>
                         <HomePage></HomePage>
                     </main>
+                    <Footer></Footer>
                 </div>
             </div>
             <Outlet />

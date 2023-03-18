@@ -19,16 +19,19 @@ function Navbar() {
             <nav >
                 <ul className="list_display">
                     <li>
-                        <a href="#" className="c_black">Moi</a>
-                    </li>
-                    <li >
-                        <a href="#" className="c_green">Etudes</a>
+                        <Link to={"/"} className="c_green">Home</Link>
                     </li>
                     <li>
-                        <a href="#" className="c_black">Projet</a>
+                        <Link to={"/AntoninLampin"} className="c_black">Moi</Link>
                     </li>
                     <li >
-                        <Link to={"/parcoursProfessionnel"} className="c_green">Parcours professionel</Link>
+                        <Link to={"/Study"} className="c_green">Etudes</Link>
+                    </li>
+                    <li>
+                        <Link to={"/Project"} className="c_black">Projet</Link>
+                    </li>
+                    <li >
+                        <Link to={"/parcoursProfessionnel"} className="c_green">Parcours pro.</Link>
                     </li>
                 </ul>
             </nav>

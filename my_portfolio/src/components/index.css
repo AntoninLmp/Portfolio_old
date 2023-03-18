@@ -41,29 +41,6 @@ font-family: 'Raleway', sans-serif; */
     background-color: rgb(212, 226, 209);
 }
 
-.bg_img {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-}
-
-.bg_scool {
-    background-image: url("../images/efrei.png");
-}
-
-.bg_projet {
-    background-image: url("../images/code.jpg");
-}
-
-.bg_antonin {
-    background-image: url("../images/IMG-20221111-WA0073.jpg");
-}
-
-.bg_pro {
-    background-image: url("../images/openspace.jpg");
-}
-
 /* DISPLAY MODEs */
 .d_none {
     display: none;
@@ -81,6 +58,10 @@ font-family: 'Raleway', sans-serif; */
     justify-content: space-around;
 }
 
+.justify_b {
+    justify-content: space-between;
+}
+
 .justify_e {
     justify-content: space-evenly;
 }
@@ -95,6 +76,10 @@ font-family: 'Raleway', sans-serif; */
 
 .flex_wrap {
     flex-wrap: wrap;
+}
+
+.flex_column {
+    flex-direction: column;
 }
 
 .w_100 {
@@ -117,12 +102,28 @@ font-family: 'Raleway', sans-serif; */
     margin: 1em 20%;
 }
 
+.mx_10 {
+    margin: 1em 10%;
+}
+
 .mx-1e {
     margin-left: 1em;
 }
 
 .mb_4 {
     margin-bottom: 4%;
+}
+
+.padding_1 {
+    padding: 1em;
+}
+
+.padding_x10 {
+    padding: 7% 0;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 /* =================== HeaderHomePage =================== */
@@ -285,85 +286,14 @@ a {
     display: none;
 }
 
-/* =================== HomePage =================== */
-.img_home {
-    width: 50%;
-    margin: 4em 0;
-}
-
-.border_rad {
-    border-radius: 15px;
-    padding: 11% 0 !important;
-    height: 500px;
-}
-
-.police_raleway {
-    font-family: 'Raleway', sans-serif;
-}
-
-.titleHomeBlock {
-    font-weight: 300;
-    font-size: 2em;
-    margin-bottom: 0;
-}
-
-.text_secondary {
-    color: rgb(143, 140, 140);
-    font-weight: 200;
-    font-style: italic;
-}
-
-.text_secondary_2 {
-    color: rgb(69, 67, 67);
-    font-weight: 200;
-    font-style: italic;
-}
-
-section article {
-    width: 25%;
-}
-
-.padding_1 {
-    padding: 1em;
-}
-
 .lign_green {
     border-top: #25a244 solid 3px;
 }
 
-.text_end {
-    font-size: 3em;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-}
+/* =================== Footer =================== */
 
-#p_homepage {
-    text-align: left !important;
-    padding: 2em;
-}
-
-.img_logo_footer {
-    width: 25%;
-}
-
-.img_logo_entreprise {
-    width: 33%;
-    margin: 1em 5%;
-}
-
-#mcdonald {
-    width: 15%;
-    margin: 1em 5%;
-}
-
-.btn_voir {
-    border: 1px solid black;
-    border-radius: 50%;
-    margin: 0px 38%;
-    height: 5em;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    color: black;
-    background-color: #f5f5f5;
+footer {
+    border-top: solid grey 1px;
+    margin: 0 20%;
+    margin-top: 3em;
 }
