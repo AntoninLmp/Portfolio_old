@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import "../index.css"
-import Navbar from "../Navbar";
+import "../global/index.css"
+import Navbar from "../global/Navbar";
 
 const Project = () => {
     return (
@@ -9,7 +9,7 @@ const Project = () => {
             <Navbar></Navbar>
             <section>
                 <article>
-
+                    Bonjour
                 </article>
             </section>
             <Outlet />

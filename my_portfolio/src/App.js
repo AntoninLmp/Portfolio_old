@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter, Routes, Route }
   from 'react-router-dom';
 import MainPage from './components/Home/MainPage';
-import CarrerPath from './components/Carrer/CarrerPath';
-import PersonalPage from './components/AntoninLampin/PersonalPage';
-import Study from './components/Study/Study';
-import Project from './components/Project/Project';
+import CarrerPath from './components/Page_Carrer/CarrerPath';
+import PersonalPage from './components/Page_Personnal/PersonalPage';
+import Study from './components/Page_Study/Study';
+import Project from './components/Page_Project/Project';
 
 function App() {
   return (

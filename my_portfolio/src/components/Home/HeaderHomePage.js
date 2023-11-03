@@ -1,13 +1,13 @@
 import React from 'react';
-import '../index.css';
+import '../global/index.css';
 import Typewriter from 'typewriter-effect';
 
 function HeaderHomePage() {
     return (
-        <div className='w_100 typewriter'>
+        <div className='w_100 ml_10 typewriter'>
             <Typewriter
                 options={{
-                    strings: ['Etudiant en alternance', 'Développeur Logiciel junior', 'Scout'],
+                    strings: ['Etudiant en alternance', 'Développeur Logiciel junior', 'Scouts et guides de France'],
                     autoStart: true,
                     loop: true,
                 }}

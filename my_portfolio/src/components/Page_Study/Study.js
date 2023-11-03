@@ -1,6 +1,6 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import "../index.css"
+import "../global/index.css"
 
 const Study = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import Navbar from '../Navbar';
-import '../index.css';
+import Navbar from '../global/Navbar';
+import '../global/index.css';
 import './CarrerPath.css';
 
 import restalliance from '../../images/restalliance.png';

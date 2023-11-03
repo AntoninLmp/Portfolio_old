@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../index.css';
+import '../global/index.css';
 import './HomePage.css';
 
 function HomePage() {

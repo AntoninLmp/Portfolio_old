@@ -1,5 +1,4 @@
-import React from 'react';
-import { useEffect, useState } from 'react';
+import React , { useEffect, useState } from 'react';
 import './StartName.css';
 
 
@@ -11,10 +10,10 @@ function StartName() {
     useEffect(() => {
         setTimer1(setTimeout(() => {
             setclassNameDiv('start-div blackwindow');
-        }, 6000));
+        }, 5000));
         setTimer2(setTimeout(() => {
             setclassNameDiv('display_none');
-        }, 6900));
+        }, 5900));
         return () => {
             clearTimeout(Timer1);
             clearTimeout(Timer2);

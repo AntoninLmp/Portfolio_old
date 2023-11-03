@@ -7,7 +7,7 @@
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Raleway', sans-serif; */
 
-/* COLOR */
+/* =================== COLOR =================== */
 .c_white {
     color: rgb(230, 228, 228);
 }
@@ -20,7 +20,7 @@ font-family: 'Raleway', sans-serif; */
     color: #25a244;
 }
 
-/* BACKGROUND */
+/* =================== BACKGROUND =================== */
 .bg_black {
     background-color: black;
 }
@@ -41,7 +41,7 @@ font-family: 'Raleway', sans-serif; */
     background-color: rgb(212, 226, 209);
 }
 
-/* DISPLAY MODEs */
+/* =================== DISPLAY MODES ===================*/
 .d_none {
     display: none;
 }
@@ -114,6 +114,10 @@ font-family: 'Raleway', sans-serif; */
     margin-bottom: 4%;
 }
 
+.ml_10{
+    margin-left: 10% !important;
+}
+
 .padding_1 {
     padding: 1em;
 }
@@ -134,7 +138,7 @@ font-family: 'Raleway', sans-serif; */
 
 .typewriter {
     font-size: 5em;
-    margin: 5em;
+    margin: 4em;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-family: 'Bebas Neue', cursive;
 
@@ -150,6 +154,10 @@ font-family: 'Raleway', sans-serif; */
 .list_display {
     list-style: none;
     text-align: start;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* letter-spacing: 0.1em; */
+    /* font-style: italic; */
+    font-weight: 300;
 }
 
 .list_display li {
