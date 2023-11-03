@@ -1,11 +1,11 @@
 import React from "react";
 import { useState } from 'react';
 import { Outlet } from "react-router-dom";
-import './HomePage.css';
+import './css/Home.css';
 import HeaderHomePage from './HeaderHomePage';
-import HomePage from './HomePage';
+import HomePage from './Home';
 import Navbar from '../global/Navbar';
-import StartName from '../Home/StartName';
+import StartName from './Starter';
 import Footer from "../global/Footer";
 
 
@@ -24,10 +24,13 @@ const MainPage = () => {
                 {<StartName></StartName>}
             </div>
             <div className={Main}>
-                <header className='d_flex'> 
-                    <Navbar></Navbar>
-                    <HeaderHomePage></HeaderHomePage>
-                </header>
+                <div className="fullscreen">
+                    <section className='name'>Antonin lampin</section>
+                    <header className='d_flex h_100'> 
+                        <Navbar></Navbar>
+                        <HeaderHomePage></HeaderHomePage>
+                    </header>
+                </div>
                 <main>
                     <HomePage></HomePage>
                 </main>

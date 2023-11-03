@@ -19,7 +19,7 @@ function Navbar() {
             <nav >
                 <ul className="list_display">
                     <li>
-                        <Link to={"/"} className="c_green">Home</Link>
+                        <Link to={"/Home"} className="c_green">Home</Link>
                     </li>
                     <li>
                         <Link to={"/AntoninLampin"} className="c_black">Moi</Link>
