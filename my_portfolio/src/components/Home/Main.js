@@ -14,7 +14,10 @@ const MainPage = () => {
         <>
             <div>
                 <div className="fullscreen">
-                    <section className='name'>Antonin lampin</section>
+                    <section>
+                        <div className="nameBase" id="FirstLastName">Antonin lampin</div>
+                        <div className="nameBase" id="DescriptionName">Software engineer</div>
+                    </section>
                     <header className='d_flex h_100'> 
                         <Navbar></Navbar>
                         <HeaderHomePage></HeaderHomePage>

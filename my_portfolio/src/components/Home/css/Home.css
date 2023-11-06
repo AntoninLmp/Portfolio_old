@@ -117,3 +117,19 @@ section article {
 body {
     margin: 0;
 }
+
+.nameBase{
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 1.3em;
+}
+#FirstLastName{
+    letter-spacing: 1em;
+    font-size: 1.9em;
+}
+#DescriptionName{
+    letter-spacing: 0.8em;
+    font-size: 1.2em;
+}
