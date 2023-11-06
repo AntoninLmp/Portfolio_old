@@ -191,9 +191,10 @@ body{
     font-size: 1.05em;
 }
 
-.list-item {
-    /* transform: translateX(-100%);
-     transition: transform 0.5s ease-in-out; */
+.list_item{
+    transform: translate(0);
+    transition-duration: 2s;
+    transition: transform 1s ease-in-out;
 }
 
 .text_menu {
