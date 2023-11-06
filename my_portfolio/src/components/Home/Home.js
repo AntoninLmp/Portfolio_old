@@ -6,50 +6,51 @@ import './css/Home.css';
 function HomePage() {
     return (
         <div className='police_raleway'>
-            <div className='bg_black padding_x10'>
+            <div className='padding_x10'>
+                <section className='d_flex justify_e'>
+                    <div className='w_30 h_100'>
+                        <div>
+                            <h1 className='titleHomeBlock c_green'>Mes Projet</h1>
+                            <h2 className='text_secondary'>Développement</h2>
+                        </div>
+                        <Link to={"/Project"}>
+                            <article className='bg_img bg_projet border_rad w_100 h_70'></article>
+                        </Link>
+                    </div>
+                    <div className='w_30 h_100'>
+                        <div>
+                            <h1 className='titleHomeBlock c_green'>Mon Parcours professionel</h1>
+                            <h2 className='text_secondary_2'>Emploie effectuer</h2>
+                        </div>
+                        <Link to={"/parcoursProfessionnel"}>
+                            <article className='bg_img bg_pro border_rad w_100 h_70'></article>
+                        </Link>
+                    </div>
+                </section>
                 <section className='d_flex justify_e mb_4'>
                     <div className='w_30 h_100'>
-                        <Link to={"/AntoninLampin"}>
-                            <article className='bg_img bg_antonin border_rad w_100 h_70'>
-                            </article>
-                        </Link>
                         <div>
                             <h1 className='titleHomeBlock c_green'>Antonin Lampin</h1>
                             <h2 className='text_secondary_2'>Etudiant en Master (Apprentissage)</h2>
                         </div>
+                        <Link to={"/AntoninLampin"}>
+                            <article className='bg_img bg_antonin border_rad w_100 h_70'>
+                            </article>
+                        </Link>
                     </div>
                     <div className='w_30 h_100'>
-                        <Link to={"/Study"}>
-                            <article className='bg_img bg_scool border_rad w_100 h_70'></article>
-                            {/* <video loop autoPlay><source src={require('../video/efrei.mp4')} type="video/mp4" /></video> */}
-                        </Link>
                         <div>
                             <h1 className='titleHomeBlock c_green'>Etudes</h1>
                             <h2 className='text_secondary'>Ecole d'ingénieur du numérique</h2>
                         </div>
+                        <Link to={"/Study"}>
+                            <article className='bg_img bg_scool border_rad w_100 h_70'></article>
+                            {/* <video loop autoPlay><source src={require('../video/efrei.mp4')} type="video/mp4" /></video> */}
+                        </Link>
                     </div>
 
                 </section>
-                <section className='d_flex justify_e'>
-                    <div className='w_30 h_100'>
-                        <Link to={"/Project"}>
-                            <article className='bg_img bg_projet border_rad w_100 h_70'></article>
-                        </Link>
-                        <div>
-                            <h1 className='titleHomeBlock c_green'>Projet</h1>
-                            <h2 className='text_secondary'>Développement</h2>
-                        </div>
-                    </div>
-                    <div className='w_30 h_100'>
-                        <Link to={"/parcoursProfessionnel"}>
-                            <article className='bg_img bg_pro border_rad w_100 h_70'></article>
-                        </Link>
-                        <div>
-                            <h1 className='titleHomeBlock c_green'>Parcours professionel</h1>
-                            <h2 className='text_secondary_2'>Emploie effectuer</h2>
-                        </div>
-                    </div>
-                </section>
+                
             </div>
             <section className='mx_20 padding_1'>
                 <p id='p_homepage'>Ils m'ont fait confiance alors pourquoi pas vous : </p>
