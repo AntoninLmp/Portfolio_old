@@ -2,11 +2,21 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import "../global/index.css"
 
+import Header from "../global/Header";
+import Navbar from "../global/Navbar";
+
 const Study = () => {
     return (
         <>
-            <h1>Study</h1>
-            <Outlet />
+            <Header></Header>
+            <div className="d_flex">
+                <Navbar></Navbar>
+                <section>
+                    <article>
+                        STUDY
+                    </article>
+                </section>
+            </div>
         </>
     );
 };

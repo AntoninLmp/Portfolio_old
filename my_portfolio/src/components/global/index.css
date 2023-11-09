@@ -184,11 +184,11 @@ body{
 }
 
 .list_display li {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 .list_display li a:hover {
-    font-size: 1.05em;
+    font-size: 1.1em;
 }
 
 .list_item{

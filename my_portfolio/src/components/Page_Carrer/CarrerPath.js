@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from '../global/Navbar';
+import Header from "../global/Header";
 import '../global/index.css';
 import './CarrerPath.css';
 
@@ -12,6 +13,7 @@ import weldom from '../../images/weldom.png';
 function CarrerPath() {
     return (
         < >
+            <Header></Header>
             <Navbar></Navbar>
             <section className='d_flex mx_10 flex_wrap justify_b'>
                 <article className='entreprise'>

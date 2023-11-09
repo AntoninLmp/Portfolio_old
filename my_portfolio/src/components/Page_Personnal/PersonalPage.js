@@ -2,11 +2,14 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import "../global/index.css"
 
+import Header from "../global/Header";
+import Navbar from "../global/Navbar";
+
 const PersonalPage = () => {
     return (
         <>
-            <h1>PersonalPage</h1>
-            <Outlet />
+            <Header></Header>
+            <Navbar></Navbar>
         </>
     );
 };

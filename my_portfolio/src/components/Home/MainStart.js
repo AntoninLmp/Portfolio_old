@@ -7,6 +7,7 @@ import HomePage from './Home';
 import Navbar from '../global/Navbar';
 import StartName from './Starter';
 import Footer from "../global/Footer";
+import Header from "../global/Header";
 
 import './css/Home.css';
 
@@ -27,10 +28,7 @@ const MainPage = () => {
             </div>
             <div className={Main}>
                 <div className="fullscreen">
-                    <section>
-                        <div className="nameBase" id="FirstLastName">Antonin lampin</div>
-                        <div className="nameBase" id="DescriptionName">Software engineer</div>
-                    </section>
+                    <Header></Header>
                     <header className='d_flex h_100'> 
                         <Navbar></Navbar>
                         <HeaderHomePage></HeaderHomePage>
