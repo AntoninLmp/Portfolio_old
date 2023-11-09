@@ -4,6 +4,7 @@ import "../global/index.css"
 
 import Navbar from "../global/Navbar";
 import Header from "../global/Header";
+import Footer from "../global/Footer";
 
 const Project = () => {
     return (
@@ -17,7 +18,7 @@ const Project = () => {
                     </article>
                 </section>
             </div>
-            <Outlet />
+            <Footer></Footer>
         </>
     );
 };

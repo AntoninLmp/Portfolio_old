@@ -4,6 +4,7 @@ import "../global/index.css"
 
 import Header from "../global/Header";
 import Navbar from "../global/Navbar";
+import Footer from "../global/Footer";
 
 const Study = () => {
     return (
@@ -17,6 +18,7 @@ const Study = () => {
                     </article>
                 </section>
             </div>
+            <Footer></Footer>
         </>
     );
 };

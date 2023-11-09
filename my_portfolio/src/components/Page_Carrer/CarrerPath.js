@@ -3,6 +3,7 @@ import Navbar from '../global/Navbar';
 import Header from "../global/Header";
 import '../global/index.css';
 import './CarrerPath.css';
+import Footer from '../global/Footer';
 
 import restalliance from '../../images/restalliance.png';
 import thales from '../../images/thales.png';
@@ -97,6 +98,7 @@ function CarrerPath() {
                 </article>
 
             </section>
+            <Footer></Footer>
         </>
     );
 }
