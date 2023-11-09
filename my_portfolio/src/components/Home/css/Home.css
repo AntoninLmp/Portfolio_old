@@ -36,19 +36,10 @@ section article {
     width: 25%;
 }
 
-.text_end {
-    font-size: 3em;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 300;
-}
-
 #p_homepage {
-    text-align: left !important;
-    padding: 2em;
-}
-
-.img_logo_footer {
-    width: 25%;
+    text-align: center;
+    padding: 1em;
+    font-weight: 200;
 }
 
 .img_logo_entreprise {

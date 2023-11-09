@@ -6,7 +6,7 @@ import './css/Home.css';
 function HomePage() {
     return (
         <div className='police_raleway'>
-            <div className='padding_x10'>
+            <div>
                 <section className='d_flex justify_e'>
                     <div className='w_30 h_100'>
                         <div>
@@ -20,7 +20,7 @@ function HomePage() {
                     <div className='w_30 h_100'>
                         <div>
                             <h1 className='titleHomeBlock c_green'>Mon Parcours professionel</h1>
-                            <h2 className='text_secondary_2'>Emploie effectuer</h2>
+                            <h2 className='text_secondary'>Emploie effectuer</h2>
                         </div>
                         <Link to={"/parcoursProfessionnel"}>
                             <article className='bg_img bg_pro border_rad w_100 h_70'></article>
@@ -31,7 +31,7 @@ function HomePage() {
                     <div className='w_30 h_100'>
                         <div>
                             <h1 className='titleHomeBlock c_green'>Antonin Lampin</h1>
-                            <h2 className='text_secondary_2'>Etudiant en Master (Apprentissage)</h2>
+                            <h2 className='text_secondary'>Etudiant en Master (Apprentissage)</h2>
                         </div>
                         <Link to={"/AntoninLampin"}>
                             <article className='bg_img bg_antonin border_rad w_100 h_70'>
@@ -52,7 +52,7 @@ function HomePage() {
                 </section>
                 
             </div>
-            <section className='mx_20 padding_1'>
+            <section className='mx_20 padding_1 align_center titleHomeBlock'>
                 <p id='p_homepage'>Ils m'ont fait confiance alors pourquoi pas vous : </p>
                 <div className='d_flex align_center flex_wrap justify_c'>
                     <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Thales.svg/2560px-Thales.svg.png' alt='Thales Logo' className='img_logo_entreprise' />
@@ -63,22 +63,7 @@ function HomePage() {
                 <div className='mx_20'>
                     <p className='btn_voir'>Voir plus</p>
                 </div>
-            </section>
-            <section className='mx_20 padding_1 lign_green'>
-                <p className='text_end'>Travaillons <span className='c_green'>ensemble</span> !</p>
-                <div className='d_flex'>
-                    <a href='https://www.linkedin.com/in/antonin-lampin-346a2a1a4/'>
-                        <img src='https://cdn-icons-png.flaticon.com/512/174/174857.png' alt='Linkedin Logo' className='img_logo_footer' />
-                    </a>
-                    <a href='https://gitlab.com/AntoninLmp'>
-                        <img src='https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/144_Gitlab_logo_logos-512.png' alt='Gitlab Logo' className='img_logo_footer' />
-                    </a>
-                    <a href='https://github.com/AntoninLmp'>
-                        <img src='https://cdn-icons-png.flaticon.com/512/25/25231.png' alt='GitHub Logo' className='img_logo_footer' />
-                    </a>
-
-                </div>
-            </section >
+            </section>            
         </div >
     );
 }

@@ -11,7 +11,7 @@ function HeaderHomePage() {
                     <p className='Header_desc d_flex'>A travers ce site, vous découvrirez que je suis</p>
                     <p className='Header_desc d_flex'>
                         <Typewriter options={{
-                                strings: [' étudiant en alternance', ' développeur Logiciel junior', ' scouts et guides de France'],
+                                strings: ['étudiant en alternance.', 'développeur logiciel junior.', 'chef scouts et guides de France.', 'un voyageur.', 'passionné de nature.'],
                                 autoStart: true,
                                 loop: true,
                             }} /> 

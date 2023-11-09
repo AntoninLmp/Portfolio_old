@@ -65,6 +65,9 @@ body{
 .d_content {
     display: contents;
 }
+.text_center{
+    text-align: center;
+}
 
 .justify_a {
     justify-content: space-around;
@@ -330,7 +333,19 @@ a {
 /* =================== Footer =================== */
 
 footer {
-    border-top: solid grey 1px;
-    margin: 0 20%;
-    margin-top: 3em;
+    border-top: solid green 1px;
+    font-family: 'Raleway', sans-serif;
+    margin: 3em 20%;
+}
+#footer_text {
+    font-size: 3em;
+    font-weight: 300;
+}
+#copyright{
+    font-size: 1em;
+    font-weight: 200;
+}
+.img_logo_footer {
+    width: 100px;
+    height: 100px;
 }
