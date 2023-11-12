@@ -1,25 +1,25 @@
 import React from "react";
 import { useState } from 'react';
 import { Outlet } from "react-router-dom";
-import HeaderHomePage from './HeaderHomePage';
 
+import HeaderHomePage from './HeaderHomePage';
 import HomePage from './Home';
 import Navbar from '../global/Navbar';
 import StartName from './Starter';
 import Footer from "../global/Footer";
 import Header from "../global/Header";
 
-import './css/Home.css';
+import '../global/index.css';
 
 
 const MainPage = () => {
 
-    const [Home, setHome] = useState('Home');
+    const [Home, setHome] = useState('d_content');
     const [Main, setMain] = useState('d_none');
 
     setTimeout(() => {
         setHome('d_none');
-        setMain('Main'); 
+        setMain('d_content'); 
     }, 6100);
     return (
         <>
