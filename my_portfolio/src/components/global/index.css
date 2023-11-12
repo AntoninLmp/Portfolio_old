@@ -7,11 +7,16 @@
 font-family: 'Shadows Into Light', cursive;
 font-family: 'Raleway', sans-serif; */
 
+body{
+    background-color: black;
+    color: white;
+}
 /* =================== COLOR =================== */
 .c_white {
     color: rgb(230, 228, 228);
 }
 
+/* A SUPPRIMER */
 .c_black {
     color: black;
 }
@@ -19,7 +24,6 @@ font-family: 'Raleway', sans-serif; */
 .c_green {
     color: #25a244;
 }
-
 /* =================== BACKGROUND =================== */
 .bg_black {
     background-color: black;
@@ -45,59 +49,60 @@ font-family: 'Raleway', sans-serif; */
 .d_none {
     display: none;
 }
-
 .d_flex {
     display: flex;
 }
-
 .d_content {
     display: contents;
 }
-
 .justify_a {
     justify-content: space-around;
 }
-
 .justify_b {
     justify-content: space-between;
 }
-
 .justify_e {
     justify-content: space-evenly;
 }
-
 .justify_c {
     justify-content: center;
 }
-
 .align_center {
     align-items: center;
 }
-
 .flex_wrap {
     flex-wrap: wrap;
 }
-
 .flex_column {
     flex-direction: column;
 }
+.text_center{
+    text-align: center;
+}
+
+/* =================== WIDTH/HEIGHT MODES ===================*/
 
 .w_100 {
     width: 100%;
 }
-
 .w_30 {
     width: 30%;
 }
 
+.h_100{
+    height: 100%;
+}
 .h_70 {
     height: 70%;
 }
-
 .h_100 {
     height: 100%;
 }
-
+/* =================== MARGIN MODES ===================*/
+.fullscreen {
+    width: 100%;
+    height: 100vh;
+}
 .mx_20 {
     margin: 1em 20%;
 }
@@ -109,15 +114,18 @@ font-family: 'Raleway', sans-serif; */
 .mx-1e {
     margin-left: 1em;
 }
+.mr-1e {
+    margin-right: 1%;
+}
+.mr-5e {
+    margin-right: 5%;
+}
 
 .mb_4 {
     margin-bottom: 4%;
 }
 
-.ml_10{
-    margin-left: 10% !important;
-}
-
+/* =================== PADDING MODES ===================*/
 .padding_1 {
     padding: 1em;
 }
@@ -129,46 +137,56 @@ font-family: 'Raleway', sans-serif; */
 .bold {
     font-weight: bold;
 }
-
-/* =================== HeaderHomePage =================== */
-.fullscreen {
-    width: 100%;
-    height: 100vh;
+.oblique{
+    font-style: oblique;
 }
+/* =================== HeaderHomePage =================== */
+
 
 .typewriter {
-    font-size: 5em;
-    margin: 4em;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-family: 'Bebas Neue', cursive;
-
+    font-size: 3em;
+    margin: 25% 0 10% 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+    /* font-style:italic; */
+    /* font-family: 'Bebas Neue', cursive; */
 }
+
+.Header_desc{
+    font-size: 1.4em;
+    font-style: initial;
+    font-weight: 200;
+    margin-right: 5px;
+}
+
 
 /* =================== NAVBAR =================== */
 .Navbar {
-    width: 50%;
+    width: 30%;
     font-family: 'Raleway', sans-serif;
-    margin: 3em 0 0 1.5em;
+    margin: 0 0 0 1.5em;
 }
 
 .list_display {
     list-style: none;
     text-align: start;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 400;
     /* letter-spacing: 0.1em; */
-    /* font-style: italic; */
-    font-weight: 300;
 }
 
 .list_display li {
-    margin-bottom: 0.5em;
+    margin-bottom: 1em;
 }
 
 .list_display li a:hover {
-    font-size: 1.05em;
+    font-size: 1.1em;
 }
 
-/* =================== BURGER MENU =================== */
+.list_item{
+    transform: translate(0);
+    transition-duration: 2s;
+    transition: transform 1s ease-in-out;
+}
 
 .text_menu {
     display: flex;
@@ -188,6 +206,8 @@ a {
     height: 62px;
     width: 75px;
 }
+/* =================== BURGER MENU =================== */
+
 
 .navbar .nav-container a:hover {
     font-weight: bolder;
@@ -301,7 +321,19 @@ a {
 /* =================== Footer =================== */
 
 footer {
-    border-top: solid grey 1px;
-    margin: 0 20%;
-    margin-top: 3em;
+    border-top: solid green 1px;
+    font-family: 'Raleway', sans-serif;
+    margin: 3em 20%;
+}
+#footer_text {
+    font-size: 3em;
+    font-weight: 300;
+}
+#copyright{
+    font-size: 1em;
+    font-weight: 200;
+}
+.img_logo_footer {
+    width: 100px;
+    height: 100px;
 }

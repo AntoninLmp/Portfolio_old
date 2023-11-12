@@ -1,5 +1,5 @@
 import React , { useEffect, useState } from 'react';
-import './StartName.css';
+import './css/Starter.css';
 
 
 function StartName() {
