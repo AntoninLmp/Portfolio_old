@@ -20,7 +20,7 @@ const MainPage = () => {
     setTimeout(() => {
         setHome('d_none');
         setMain('d_content'); 
-    }, 6100);
+    }, 5900);
     return (
         <>
             <div className={Home}>

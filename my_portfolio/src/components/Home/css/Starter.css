@@ -14,7 +14,8 @@
     animation-delay: -10s;
     animation: BlackWindow;
     animation-duration: 1s;
-    background-color: black;
+    background-color: white;
+    /* color: grey; */
 }
 
 @keyframes BlackWindow {

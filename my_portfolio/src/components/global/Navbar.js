@@ -35,13 +35,13 @@ function Navbar() {
                             <Link to={"/Home"} className="c_green">Home</Link>
                         </li>
                         <li className={transitionMenu}>
-                            <Link to={"/AntoninLampin"} className="c_white">Moi</Link>
+                            <Link to={"/AntoninLampin"} className="c_black">Moi</Link>
                         </li>
                         <li className={transitionMenu}>
                             <Link to={"/Study"} className="c_green">Etudes</Link>
                         </li>
                         <li className={transitionMenu}>
-                            <Link to={"/Project"} className="c_white">Projet</Link>
+                            <Link to={"/Project"} className="c_black">Projet</Link>
                         </li>
                         <li className={transitionMenu}>
                             <Link to={"/parcoursProfessionnel"} className="c_green">Parcours pro.</Link>

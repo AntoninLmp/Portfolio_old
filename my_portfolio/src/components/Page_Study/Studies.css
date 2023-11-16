@@ -1,0 +1,41 @@
+.body{
+    font-family: 'Raleway', sans-serif;
+}
+.img_school{
+    position:static;
+    width: 250px;
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+    transition:
+    width 2s,
+    height 2s,
+    background-color 2s,
+    rotate 1.5s;
+}
+
+.img_school:hover{
+    width: 500px;
+    height: 400px;
+    rotate: 360deg;
+}
+.img_school:hover + .school_text{
+    display: block;
+}
+.school_text{
+    display: none;
+    animation: 3s ease-in 1s reverse both running slidein;
+    animation-delay: 2s;
+}
+.mt-150{
+    margin-top: 150px;
+}
+.mt-300{
+    margin-top: 300px;
+}
+.mt-450{
+    margin-top: 450px;
+}
+.point{
+    font-size: 200px;
+}

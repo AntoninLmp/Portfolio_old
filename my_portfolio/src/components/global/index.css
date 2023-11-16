@@ -8,8 +8,8 @@ font-family: 'Shadows Into Light', cursive;
 font-family: 'Raleway', sans-serif; */
 
 body{
-    background-color: black;
-    color: white;
+    background-color: #eeeee5;
+    color: black;
 }
 /* =================== COLOR =================== */
 .c_white {
@@ -22,7 +22,7 @@ body{
 }
 
 .c_green {
-    color: #25a244;
+    color: #76c893;
 }
 /* =================== BACKGROUND =================== */
 .bg_black {
@@ -98,6 +98,9 @@ body{
 .h_100 {
     height: 100%;
 }
+.h_252{
+    height: 252px;
+}
 /* =================== MARGIN MODES ===================*/
 .fullscreen {
     width: 100%;
@@ -110,7 +113,9 @@ body{
 .mx_10 {
     margin: 1em 10%;
 }
-
+.mt-20 {
+    margin-top: 2em;
+}
 .mx-1e {
     margin-left: 1em;
 }
@@ -120,7 +125,6 @@ body{
 .mr-5e {
     margin-right: 5%;
 }
-
 .mb_4 {
     margin-bottom: 4%;
 }
@@ -158,8 +162,16 @@ body{
     font-weight: 200;
     margin-right: 5px;
 }
-
-
+.nameBase{
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 200;
+    margin-top: 1.3em;
+}
+.title{
+    font-size: 1.5em;
+}
 /* =================== NAVBAR =================== */
 .Navbar {
     width: 30%;
@@ -249,7 +261,7 @@ a {
     height: 4px;
     width: 100%;
     border-radius: 10px;
-    background: #25a244;
+    background: #76c893;
 }
 
 .nav-container .hamburger-lines .line1 {

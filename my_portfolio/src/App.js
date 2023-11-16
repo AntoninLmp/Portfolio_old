@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route }
   import Main from './components/Home/Main';
 import CarrerPath from './components/Page_Carrer/CarrerPath';
 import PersonalPage from './components/Page_Personnal/PersonalPage';
-import Study from './components/Page_Study/Study';
+import Study from './components/Page_Study/Studies';
 import Project from './components/Page_Project/Project';
 
 function App() {

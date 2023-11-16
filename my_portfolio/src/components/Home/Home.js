@@ -28,7 +28,7 @@ function HomePage() {
                 <section className='d_flex flex_column justify_e mx_20 mb_4'>
                     <div className='w_100 h_100 mb_4'>
                         <div>
-                            <h1 className='titleHomeBlock c_green titlePrimary1'>Mes Projet</h1>
+                            <h1 className='titleHomeBlock c_green titlePrimary1'>Mes Projets</h1>
                             <h2 className='text_secondary'>Développement de plusieurs projets au cours de mes études...</h2>
                         </div>
                         <Link to={"/Project"}>
@@ -76,9 +76,11 @@ function HomePage() {
                             </p>
                         </div>
                     </article>
-                    <Link to={"/AntoninLampin"}>
-                        <a className='btn_seeMore'>En savoir +</a>
-                    </Link>
+                    <article className='mt-20'>
+                        <Link to={"/AntoninLampin"}>
+                            <a className='btn_seeMore'>En savoir +</a>
+                        </Link>
+                    </article>
                 </section>
             </div>
             <section className='font_raleway mx_20 padding_1 align_center titleHomeBlock titlePrimary3'>
